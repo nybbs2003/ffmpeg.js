@@ -311,6 +311,7 @@ EMCC_COMMON_ARGS = \
 	--closure 1 \
 	-s USE_ZLIB=1 \
 	-s TOTAL_MEMORY=67108864 \
+	-s ALLOW_MEMORY_GROWTH=1 \ 
 	-s OUTLINING_LIMIT=20000 \
 	-O3 --memory-init-file 0 \
 	--pre-js $(PRE_JS) \
