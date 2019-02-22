@@ -135,7 +135,7 @@ ffmpeg({
 ## Build instructions
 ```bash
 git submodule init
-git submodule update --recursive
+git submodule update --remote --checkout --force
 docker build -t build_image .
 docker rm -f build_container
 docker run --name build_container build_image
