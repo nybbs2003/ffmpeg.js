@@ -24,4 +24,4 @@ ENV PATH="/root/emsdk-portable:/root/emsdk-portable/clang/e1.37.40_64bit:/root/e
 COPY . /root/ffmpeg.js/
 WORKDIR /root/ffmpeg.js
 
-CMD ["make", "clean", "ffmpeg-worker-mp4.js"]
+CMD ["make", "clean", "all"]
